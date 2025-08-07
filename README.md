@@ -29,4 +29,37 @@ This application allows users to perform basic CRUD (Create, Read, Update, Delet
 ---
 
 ## 📁 Project Structure
+employee-tracker/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com.example.employeetracker/
+│ │ │ ├── controller/
+│ │ │ ├── entity/
+│ │ │ ├── repository/
+│ │ │ ├── service/
+│ │ │ └── EmployeeTrackerApplication.java
+│ │ └── resources/
+│ │ ├── application.properties
+│ │ └── static/
+├── pom.xml
+└── README.md
+
+---
+
+
+---
+
+## ⚙️ Configuration
+
+Update your `application.properties` with your local database settings:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_db
+spring.datasource.username=root
+spring.datasource.password=your_password
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+server.port=8080
+---
 
