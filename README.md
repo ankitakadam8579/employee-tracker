@@ -28,31 +28,6 @@ This application allows users to perform basic CRUD (Create, Read, Update, Delet
 
 ---
 
-## 📁 Project Structure
-employee-tracker/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ └── com.example.employeetracker/
-│ │ │ ├── controller/
-│ │ │ ├── entity/
-│ │ │ ├── repository/
-│ │ │ ├── service/
-│ │ │ └── EmployeeTrackerApplication.java
-│ │ └── resources/
-│ │ ├── application.properties
-│ │ └── static/
-├── pom.xml
-└── README.md
-
-
-
-
-
-
----
-
-
 ## ⚙️ Configuration
 
 Update your `application.properties` with your local database settings:
